@@ -1,11 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import "./index.css"
-import App from "./App"
+
+import { main } from "../dist/re-layout.es"
+
+main()
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>Hello world</div>
   </React.StrictMode>,
   document.getElementById("root")
 )
