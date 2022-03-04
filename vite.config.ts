@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.tsx",
-      name: "re-layout",
-      fileName: format => `re-layout.${format}.js`
+      name: "bujv",
+      fileName: format => `bujv.${format}.js`
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

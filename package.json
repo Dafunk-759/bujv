@@ -1,20 +1,20 @@
 {
-  "name": "re-layout",
+  "name": "bujv",
   "version": "0.0.1",
   "description": "a tiny simple lib for react layout",
   "author": "Dafunk-759",
   "license": "MIT",
-  "repository": "Dafunk-759/re-layout",
+  "repository": "Dafunk-759/bujv",
   "files": [
     "dist"
   ],
-  "main": "./dist/re-layout.umd.js",
-  "module": "./dist/re-layout.es.js",
+  "main": "./dist/bujv.umd.js",
+  "module": "./dist/bujv.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/re-layout.es.js",
-      "require": "./dist/re-layout.umd.js"
+      "import": "./dist/bujv.es.js",
+      "require": "./dist/bujv.umd.js"
     }
   },
   "keywords": [
